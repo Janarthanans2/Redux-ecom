@@ -31,13 +31,6 @@ export const Header = () => {
     dispatch(DELETE(id))
   }
 
-  // const[getdata,dispatch]=useReducer(cartReducer,initialState);
-  // return(
-  //   {
-  //     dispatch({type:DELETE.REMOVE});
-  //   }
-  // );
-
   const [price, setPrice] = useState(0)
   console.log(price)
 
